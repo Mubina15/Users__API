@@ -1,0 +1,19 @@
+.cardd {
+    width: 18rem;
+    height: 455px;
+    margin: 10px;
+}
+
+.dff {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.img {
+    width: 287px;
+}
+
+.h55 {
+    margin-bottom: 25px;
+}
