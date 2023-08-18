@@ -21,7 +21,7 @@ export const UserSingle = () => {
       {
         userInfo.map(item => (
 
-          <div className="cardd">
+          <div key={item.id} className="cardd">
             <img className="img" src="https://picsum.photos/id/28/150" alt="Card image cap" />
             <div className="card-body">
 
