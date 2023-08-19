@@ -4,8 +4,6 @@ import "./Comments.css"
 
 export const Comments = () => {
 
-  const { userId } = useParams();
-
   const [userCom, setUserCom] = useState([]);
 
   useEffect(() => {
